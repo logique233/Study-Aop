@@ -24,9 +24,7 @@ public class DemoApplication {
         System.out.println("\n");
         manager.manyAdvices("hello","world");
         System.out.println("\n");
-        for (int i = 0; i < 10; i++) {
-            manager.accessAdvice(new Date(),"world");
-        }
+        manager.accessAdvice(new Date(),"world");
     }
 
 }
